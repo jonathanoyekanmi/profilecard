@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #28223f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: montserrat;
+    color: whitesmoke;
+    font-weight: 100;
+}
+
+.container {
+    width: 350px;
+    margin: auto;
+    background: #231e39;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.6);
+}
+
+.profileImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.proLabel {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    /* background: chocolate; */
+    background: #dd3333;
+    padding: 3px 5px;
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: 500;
+    color: #333;
+
+}
+
+#profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid rgba(35, 245, 245, 0.781);
+    padding: 7px;
+}
+
+#city {
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-top: -5px;
+}
+p#about {
+    font-size: 13px;
+    padding: 10px 50px;
+    font-weight: 200;
+}
+
+.profileBtn  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+
+.btn {
+    padding: 8px 20px;
+    margin-left: 3px;
+    background: rgba(35, 245, 245, 0.781);
+    border: 1px solid  rgba(35, 245, 245, 0.781);
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.btn2 {
+    background: transparent;
+    color: rgba(35, 245, 245, 0.781);
+}
+
+.skills {
+    background: #1f1a36;
+    padding-bottom: 10px;
+}
+
+.skills p {
+    text-align: left;
+    padding: 10px 8px 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.skills ul {
+    margin: 0;
+    padding: 0;
+}
+
+.skills ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 7px;
+    border: 1px solid whitesmoke;
+    margin: 3px 0 3px 5px;
+    font-size: 12px;
+    border-radius: 3px;
+    text-align: center;
+}
+
